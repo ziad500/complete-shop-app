@@ -14,7 +14,7 @@ class AppRoutes {
   static final routes = [
     GetPage(name: welcomeScreen, page: () => WelcomeScreen()),
     GetPage(name: loginScreen, page: () => const LoginScreen()),
-    GetPage(name: signupScreen, page: () => const SignUpScreen()),
+    GetPage(name: signupScreen, page: () => SignUpScreen()),
   ];
 }
 
